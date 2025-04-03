@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Vivek Batra",
+    "url": "https://play.google.com/store/apps/details?id=com.vivek.barta",
+    "description": "Vivek Barta is a news application which provides news details on several topics like entertainment, sports, history, geography, local news and many more.",
+    "technologies": ["Flutter", "Dart", "MVVM Architecture", "Bloc", "Dio", "Dependency Injection", "Firebase Analytics", "CI/CD"]
+  },
+  {
+    "title": "Chess Master",
+    "url": "https://play.google.com/store/apps/details?id=com.kishan.chess",
+    "description": "Chess Master is designed to make chess accessible and enjoyable for everyone, whether you’re a beginner or a seasoned grandmaster. With regular updates, interactive lessons, and a global community, Chess Master is the perfect app to refine your skills and experience the thrill of chess.",
+    "technologies": ["Flutter", "Dart", "MVVM Architecture", "Provider", "Dependency Injection", "Device Preview", "CI/CD"]
+  },
+  {
+    "title": "Dare Roulette",
+    "url": "https://play.google.com/store/apps/details?id=com.kishan.truth_and_dare",
+    "description": "Spice up your gatherings with Dare Roulette! Spin the wheel to reveal exciting Truth or Dare challenges, perfect for friends, family, and parties. With endless fun questions and daring tasks, Dare Roulette is your ultimate game for laughter and unforgettable moments. Are you ready to take on the challenge? Spin now!",
+    "technologies": ["Flutter", "Dart", "MVVM Architecture", "Provider", "Dependency Injection", "Device Preview", "CI/CD"]
+  },
+  {
+    "title": "Healofy",
+    "url": "https://apps.apple.com/us/app/healofy-pregnancy-parenting/id6444273441",
+    "description": "Healofy is for Indian Babies, Moms & Pregnant Moms. From pregnancy week by week tracker, pregnancy calendar to breastfeeding, pregnancy tips in Hindi, Malayalam. Baby tips, baby care tips, parenting tips, baby health, kick counter to baby growth, fatigue, nausea, nausea meaning, white discharge, frequent urination, heartburn, acid reflux, tumbler, tired, baby vaccination chart to baby food recipes, pregnancy calculator to pregnancy yoga, potty training, ultrasound pics, baby vegetables to baby sleep, breastfeeding & baby toys or femzy products & more from femzy. Range of products by Femzy & Baby Story.",
+    "technologies": ["Flutter", "Dart", "Clean Architecture", "Flutter Bloc", "Dio", "GetIt", "Firebase Analytics", "Git", "Flutter Testing", "CI/CD"]
+  },
+  {
+    "title": "WeCopyTrade",
+    "url": "https://play.google.com/store/apps/details?id=com.wecopytrade.app",
+    "description": "WeCopyTrade is a platform or service that allows individuals to copy the trades of experienced traders. It is a form of social trading where less experienced traders can benefit from the knowledge and expertise of more seasoned traders by replicating their trading strategies and actions.",
+    "technologies": ["Flutter", "Dart", "MVVM Architecture", "Flutter Bloc", "Dio", "GetIt", "Firebase Analytics", "Git", "Flutter Testing", "CI/CD"]
+  },
+  {
+    "title": "Miabigado",
+    "url": "https://play.google.com/store/apps/details?id=com.consumerlaw.group",
+    "description": "This application belongs to Consumer Law Group, a Spanish speaking Illinois based law firm focused on protecting the right of the immigrants. This application educates the immigrants about their rights Application also allows the user to share their location with loved ones in case of arrest.",
+    "technologies": ["Flutter", "Dart", "Provider", "Git", "SQLite", "Shared Preferences", "Url Launcher", "CI/CD"]
+  },
+  {
+    "title": "Space Fighter",
+    "url": "https://play.google.com/store/apps/details?id=in.eduforyou.spacefighter",
+    "description": "A simple app made in Android for entertainment.",
+    "technologies": ["Java", "XML", "MVVM", "Bitbucket", "Material3", "Paint"]
+  },
+  {
+    "title": "Pong TT",
+    "url": "https://play.google.com/store/apps/details?id=in.eduforyou.pong2dgame",
+    "description": "An app similar to TT made for entertainment.",
+    "technologies": ["Java", "XML", "MVVM", "Bitbucket", "Material3", "Paint"]
+  },
+  {
+    "title": "MyJubilant",
+    "url": "https://play.google.com/store/apps/details?id=com.jubilant.pspl.myjubilant",
+    "description": "Build corporate app for employees under the name of MyJubilant, with this App employees can perform all the major tasks of various applications without logging into multiple applications such as ERP, CRM, HR etc.",
+    "technologies": ["Java", "Kotlin", "Retrofit", "Volley", "XML", "MVVM", "GitHub", "Firebase", "Push Notification", "Google Map", "CI/CD"]
+  },
+  {
+    "title": "NotNul",
+    "url": "https://play.google.com/store/apps/details?id=com.notnul.notnul",
+    "description": "A digital library where user can find any kind of books, magazines, notes and some research papers for study.",
+    "technologies": ["Java", "Http", "Flex Paper", "Payment Gateway", "SQLite", "Firebase", "Push Notification", "XML", "MVC"]
+  },
+  {
+    "title": "Vkeel Find Advocate | Lawyer",
+    "url": "https://play.google.com/store/apps/details?id=com.vkeel",
+    "description": "Vkeel Android App is a platform where you can search Lawyers of your city/locality or from all over the country. Users can ask questions, receive answers and suggestions from Advocates.",
+    "technologies": ["Java", "Retrofit", "SQLite", "Firebase", "Push Notification", "XML", "MVP", "GitHub", "Google Map"]
+  },
+  {
+    "title": "Oky",
+    "url": "https://play.google.com/store/apps/details?id=com.oky",
+    "description": "Period tracker app made for girls",
+    "technologies": ["React Native", "JavaScript", "Chart", "Http", "Redux", "GitHub"]
+  },
+  {
+    "title": "Sticky Notes",
+    "url": "https://play.google.com/store/apps/details?id=in.ktechnos.notesapp",
+    "description": "An app to add and track your daily activity.",
+    "technologies": ["Kotlin", "XML", "Room Database", "MVVM", "GitHub"]
+  },
+  {
+    "title": "Task Management",
+    "url": "https://play.google.com/store/apps/details?id=in.eduforyou.task",
+    "description": "An app to track your daily activity and increase your productivity.",
+    "technologies": ["Kotlin", "XML", "Room Database", "MVVM", "GitHub", "Notification", "Dagger", "Hilt", "Biometric", "Play Core Library", "Leakcanary", "CI/CD"]
+  },
+  {
+    "title": "ISRO News",
+    "url": "https://play.google.com/store/apps/details?id=in.eduforyou.isronews",
+    "description": "An app which will show all the Mission and Spacecraft launched by Indian Space Research Organization.",
+    "technologies": ["Kotlin", "Jetpack Compose", "MVVM", "Retrofit", "Bitbucket", "Material3", "Coroutine"]
+  },
+  {
+    "title": "Cricduel",
+    "url": "www.cricduel.com",
+    "description": "A fantasy league app. People can create his/her own team and can participate in different types of leagues.",
+    "technologies": ["Java", "MVVM", "Retrofit", "Volley", "Git", "Firebase", "Payment Gateway"]
+  },
+  {
+    "title": "Liebigs Tracking App",
+    "url": "https://play.google.com/store/apps/details?id=com.app.liebigsagrochem",
+    "description": "Liebigs Tracking App is an application is for internal users of Liebigs Agro Chem Pvt Ltd to work in remote area under the company supervision. This app helps users to check on their daily travel activity, attendance and helps them in travelling allowances.",
+    "technologies": ["Flutter", "Dart", "Provider", "Git", "SQLite", "Firebase", "GitHub", "GetIt", "Testing"]
+  },
+  {
+    "title": "Wallpaper",
+    "url": "https://play.google.com/store/apps/details?id=in.eduforyou.wallpaper",
+    "description": "An app to create your own wallpaper for your mobile screens.",
+    "technologies": ["Android", "Kotlin", "Jetpack Compose", "MVVM"]
+  },
+  {
+    "title": "Tic Tac Toe",
+    "url": "https://play.google.com/store/apps/details?id=in.ktechnos.tictactoe",
+    "description": "An app made in android for entertainment.",
+    "technologies": ["Android", "Kotlin", "Jetpack Compose", "MVVM"]
+  },
+  {
+    "title": "Compass",
+    "url": "https://play.google.com/store/apps/details?id=in.eduforyou.compass",
+    "description": "An app to know the direction.",
+    "technologies": ["Android", "Kotlin", "Jetpack Compose", "MVVM"]
+  },
+  {
+    "title": "JiHuzur",
+    "url": "",
+    "description": "An e-commerce app using which user can purchase grocery products and dairy products.",
+    "technologies": ["Android", "Kotlin", "Java", "MVVM", "Retrofit", "Volley", "SQLite", "Firebase", "Payment gateway"]
+  },
+  {
+    "title": "Airport Analytics",
+    "url": "",
+    "description": "Build 20 different Apps in Power Apps & 5 Dashboard in Power BI for 8 Departments of the Airport – Cargo, Safety, Quality & Services, Technical Services, Terminal Operations, Guest Relation, CFL & ORAT.",
+    "technologies": ["Power Apps", "Power Automate", "Microsoft Power FX", "Dataverse"]
+  },
+  {
+    "title": "Deal Collaborations Tool",
+    "url": "",
+    "description": "Developed this tool using PowerApps & Power automate to search account (Project) owner details on global or country level.",
+    "technologies": ["Power Apps", "Power Automate", "Microsoft Power FX", "Dataverse"]
+  },
+  {
+    "title": "PBV Connect",
+    "url": "",
+    "description": "An app made using Power Apps & Power Automate for automating manual internal process.",
+    "technologies": ["Power Apps", "Power Automate", "Microsoft Power FX", "Dataverse"]
+  },
+  {
+    "title": "RDSE",
+    "url": "",
+    "description": "An app made using Power Apps & Power Automate for automating manual internal process.",
+    "technologies": ["Power Apps", "Power Automate", "Microsoft Power FX", "Dataverse"]
+  }
+]

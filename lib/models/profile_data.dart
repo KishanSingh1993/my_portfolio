@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import 'package:flutter/services.dart' show rootBundle;
+
 class ProfileData {
   final String name = "Kishan Singh";
   final String email = "kishang.90@gmail.com";
@@ -43,21 +47,22 @@ class ProfileData {
     "Clean Architecture",
     // Add all skills from resume
   ];
-  final List<Project> projects = [
-    Project(
-      title: "Vivek Batra",
-      description: "A news application providing details on various topics...",
-      url: "https://play.google.com/store/apps/details?id=com.vivek.barta",
-      technologies: ["Flutter", "Dart", "MVVM", "Bloc", "Dio"],
-    ),
-    Project(
-      title: "Chess Master",
-      description: "Chess app for beginners and grandmasters...",
-      url: "https://play.google.com/store/apps/details?id=com.kishan.chess",
-      technologies: ["Flutter", "Dart", "MVVM", "Provider"],
-    ),
-    // Add all projects from resume
-  ];
+  List<Project> projects = [];
+  // final List<Project> projects = [
+  //   Project(
+  //     title: "Vivek Batra",
+  //     description: "A news application providing details on various topics...",
+  //     url: "https://play.google.com/store/apps/details?id=com.vivek.barta",
+  //     technologies: ["Flutter", "Dart", "MVVM", "Bloc", "Dio"],
+  //   ),
+  //   Project(
+  //     title: "Chess Master",
+  //     description: "Chess app for beginners and grandmasters...",
+  //     url: "https://play.google.com/store/apps/details?id=com.kishan.chess",
+  //     technologies: ["Flutter", "Dart", "MVVM", "Provider"],
+  //   ),
+  //   // Add all projects from resume
+  // ];
 
   final List<Education> education = [
     Education(
@@ -79,8 +84,15 @@ class ProfileData {
       year: "2008",
     ),
   ];
-}
 
+  ProfileData();
+
+  Future<void> loadProjects() async {
+    final String response = await rootBundle.loadString('assets/projects.json');
+    final List<dynamic> data = jsonDecode(response);
+    projects = data.map((json) => Project.fromJson(json)).toList();
+  }
+}
 class Project {
   final String title;
   final String description;
@@ -93,7 +105,29 @@ class Project {
     required this.url,
     required this.technologies,
   });
+
+  factory Project.fromJson(Map<String, dynamic> json) {
+    return Project(
+      title: json['title'],
+      description: json['description'],
+      url: json['url'],
+      technologies: List<String>.from(json['technologies']),
+    );
+  }
 }
+// class Project {
+//   final String title;
+//   final String description;
+//   final String url;
+//   final List<String> technologies;
+//
+//   Project({
+//     required this.title,
+//     required this.description,
+//     required this.url,
+//     required this.technologies,
+//   });
+// }
 
 class Education {
   final String course;
