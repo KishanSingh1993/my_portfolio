@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        //title: Text("Kishan Singh's Portfolio"),
+        title: Text("Kishan Singh's Portfolio"),
         bottom: CustomTabBar(tabController: _tabController),
       ),
       body: TabBarView(
